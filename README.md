@@ -14,10 +14,10 @@ git clone https://github.com/protruser/Mypage.git
 
 <br>
 
-To go to the page directly, Click This <a href="#" style="color: blue;">link</a>
+To go to the page directly, Click This <a href="https://protruser.github.io/Mypage/" style="color: blue;">link</a>
 
 <ul>
-  <li><a href="#">I will fix it</a></li>
+  <li><a href="https://protruser.github.io/Mypage/">https://protruser.github.io/Mypage/</a></li>
 </ul>
 
 <br>
