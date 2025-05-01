@@ -4,17 +4,20 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="./css/style.css" />
+        <script src="./js/theme.js"></script>
+        <script src="./js/project.js"></script>
         <title>Projects</title>
     </head>
     <body>
         <div id="header">
-            <h1>Sim Suyong</h1>
+            <h1>Sim Suyong <button id="light-dark"></button></h1>
             <div class="nav">
                 <ul>
                     <li>
                         <a href="./index.html"><span>&#127968;</span>Home</a>
                         <a href="./Skills.html"><span>&#128218;</span>Skills</a>
                         <a href="./Projects.html"><span>&#128193;</span>Projects</a>
+                        <a href="./GitHub Stats.html"><span>&#128025;</span>GitHub</a>
                         <a href="./Contact.html"><span>&#128222;</span>Contact</a>
                     </li>
                 </ul>
@@ -23,10 +26,16 @@
         <div id="container">
             <div class="innerdiv">
                 <h2 class="container-title">Projects</h2>
+                <div id="project-filter">
+                    <button class="filter-btn" data-category="All">All</button>
+                    <button class="filter-btn" data-category="CTF">CTF</button>
+                    <button class="filter-btn" data-category="AI">AI</button>
+                    <button class="filter-btn" data-category="Development">Development</button>
+                </div>
             </div>
 
             <div class="innerdiv">
-                <div class="innerdiv-projects">
+                <div class="innerdiv-projects" data-category="CTF">
                     <h2>ROPME Project</h2>
                     <h5>2024.12</h5>
                     <p>
@@ -51,7 +60,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="innerdiv-projects">
+                <div class="innerdiv-projects" data-category="AI">
                     <h2>Smart Refrigerator Design with Machine Learning(CV, NLP)</h2>
                     <h5>2025.02</h5>
                     <p>
@@ -69,6 +78,42 @@
                                 href="https://o365seoultech-my.sharepoint.com/:p:/g/personal/junkunpark0224_officestu_seoultech_ac_kr/Ebjy-pucxKpAksu1EaEHlMIBUXTjP9s93IjZVRW_uuuotw?rtime=LhIWwR5q3Ug"
                                 >PPT Google Drive</a
                             >
+                        </li>
+                    </ul>
+                </div>
+                <div class="innerdiv-projects" data-category="Development">
+                    <h2>Drawing Editor</h2>
+                    <h5>2024.12</h5>
+                    <p>
+                        Drawing editor project in Data Structure class. This project was carried out in two stages:
+                        basic UI creation and implementation. The basic UI was composed through Figma and visualized
+                        with a UML diagram. In the implementation stage, the basic structure of the drawing editor, such
+                        as color, move, cut, undo, and redo was implemented with manual.
+                    </p>
+                    <img src="./img/Draw-img1.png" alt="Drawing Editor project image1" />
+                    <img src="./img/Draw-img2.png" alt="Drawing Editor project image2" />
+                    <ul>
+                        <li>
+                            link:
+                            <a href="https://github.com/protruser/DrawingEditor">Github Link</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="innerdiv-projects" data-category="Development">
+                    <h2>Korean Won Detection</h2>
+                    <h5>2024.12</h5>
+                    <p>
+                        Korean Won Detection project in Open Source Software class. This project was carried out in two
+                        stages: Step 2: Investigating, conceiving multiple open sources and implementing. Using the
+                        OpenCV library, the bill was implemented to determine the real or fake according to the
+                        similarity when it was brought to the screen. In addition, several functions were added to the
+                        GitHub page to activate the function as a kind of community.
+                    </p>
+                    <img src="./img/WonDetection-img1.png" alt="Open Source Software project image1" />
+                    <ul>
+                        <li>
+                            link:
+                            <a href="https://github.com/protruser/KoreanWonDetection">Github Link</a>
                         </li>
                     </ul>
                 </div>
