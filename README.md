@@ -41,7 +41,8 @@ To go to the page directly, Click This <a href="https://protruser.github.io/Mypa
 
 <p>On the Skills page, the currently available programming languages are simply written by level.</p>
 
-<img src="https://github.com/user-attachments/assets/6b2a83d5-d24a-4036-be9b-40b84b91f6f2" alt="Skills image" style="width: 60%; height:40%">
+<img src="https://github.com/user-attachments/assets/c824014a-2b3b-4dab-9ad6-87f5d1c540e0" alt="Skills image" style="width: 60%; height:40%">
+
 
 <br>
 <br>
