@@ -105,7 +105,7 @@ To go to the page directly, Click This <a href="https://protruser.github.io/Mypa
 <p>When adding the project list to the Project page, the page became very long. Therefore, needed the function to classify the projects according to their categories. User can sort the project list by clicking the button that appears at the bottom of the "Projects" text.</p>
 <div style="display: flex; justify-content: space-between;">
   <img src="https://github.com/user-attachments/assets/a7568b74-9dad-4357-8bad-dcb39e3fb238" alt="Function image 4" style="width:45%; height: 200px">
-  <img src="https://github.com/user-attachments/assets/bbd519fd-f730-4c36-8645-e140dc6b0518" alt="Function image 5" style="width:45%; height: 200px">
+  <img src="https://github.com/user-attachments/assets/bb2a78ec-f6ba-43d9-ae0a-064e07b074fa" alt="Function image 5" style="width:45%; height: 200px">
 </div>
 
 
@@ -117,7 +117,7 @@ To go to the page directly, Click This <a href="https://protruser.github.io/Mypa
 
 ## Attachment
 
-<p>Each device even has a function that provides a different UI, so you can freely visit the page.
+<p>This page provides a different UI for each device, so you can freely visit the page.
 <br>
   <br>
-As the page is not perfect, if there is anything I need to modify the UI or if there is anything I need to add, I would appreciate it if you could give me PR.</p>
+As the page is not perfect, if there is anything to modify the UI or if there is anything to add, I would appreciate it if you give me PR.</p>
