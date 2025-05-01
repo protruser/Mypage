@@ -6,6 +6,10 @@ document.addEventListener('DOMContentLoaded', () => {
         button.addEventListener('click', () => {
             const category = button.getAttribute('data-category');
 
+            buttons.forEach((btn) => btn.classList.remove('active'));
+
+            button.classList.add('active');
+
             projects.forEach((project) => {
                 const categorySort = project.getAttribute('data-category');
 
